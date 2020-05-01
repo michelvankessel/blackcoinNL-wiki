@@ -1,0 +1,29 @@
+{
+  "name": "blackcoinNL-wiki",
+  "private": false,
+  "description": "A simple markdown based documentation platform for Blackcoin",
+  "version": "0.0.1",
+  "author": "DanielC.us",
+  "dependencies": {
+    "gatsby": "^2.0.107",
+    "gatsby-theme-wiki": "git+https://github.com/cephalization/gatsby-wiki.git"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielclough/blackcoinNL-wiki"
+  },
+  "bugs": {
+    "url": "https://github.com/danielclough/blackcoinNL-wiki/issues"
+  }
+}
