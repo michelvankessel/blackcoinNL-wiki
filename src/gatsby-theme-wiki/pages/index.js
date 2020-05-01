@@ -13,7 +13,7 @@ const IndexPage = () => (
         👋
       </span>
     </h1>
-    <h2>This is the "most official" Blackcoin Wiki.</h2>
+    <h2>This is the "most official" Blackcoin Wiki - BLACKCOIN RULES!.</h2>
     <p>
       Add some new pages by following the instructions at the{' '}
       <Link to="/how-to-use">How To</Link> page!
