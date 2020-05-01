@@ -28,6 +28,8 @@ const Layout = ({ children }) => (
           <div className="content-flex">
             {children}
             <hr />
+            <a href={`${githubPrefix}`}> Edit this page </a>
+            <hr />            
             <footer>
               © {new Date().getFullYear()}
               {` `}
@@ -39,6 +41,8 @@ const Layout = ({ children }) => (
     )}
   />
 );
+
+const githubPrefix = 'https://github.com/danielclough/blackcoinNL-wiki/blob/master/src/gatsby-theme-wiki/pages/index.js'
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

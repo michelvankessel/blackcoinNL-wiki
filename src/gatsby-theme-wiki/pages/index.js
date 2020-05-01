@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`, 'wiki']} />
+    <SEO title="Home" keywords={[`Blackcoin`, `Cryptocurrency`, `Community`, 'wiki']} />
     <h1>
       Welcome{' '}
       <span role="img" aria-label="wave hello">
